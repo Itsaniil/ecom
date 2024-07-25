@@ -51,10 +51,18 @@ body{
     color: #000;
     font-size: 18px;
     text-decoration: none;
-    margin-left: 35px;
+    margin-left: 15px;
     transition: .3s ease;
 }
 
 .navbar a:hover{
+    color: #fff;
+}
+
+.icons a{
+    margin-left: 35px;
+}
+
+.icons a:hover{
     color: #fff;
 }
