@@ -84,3 +84,29 @@ a {
     background-color: rgb(109, 212, 200);
     transition: 0.5s ease;
 }
+
+footer {
+    background-color: #E9E8E6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.social-contact {
+    justify-content: center;
+        margin: 15px 0px 15px 0px;
+}
+
+.social-contact a {
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.social-contact a:hover {
+    color: #34B7A7;
+    border: 1px solid #34B7A7;
+    transition: .5s ease;
+}
