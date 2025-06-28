@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
     justify-content: space-between;
     padding: 0px 13px 0px 13px;
 }
@@ -48,5 +49,38 @@ a {
 
 .social-links a:hover {
     color: #34B7A7;
+    transition: 0.5s ease;
+}
+
+.hero {
+    color: #E9E8E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.hero a {
+    color: #E9E8E6;
+    background-color: #34B7A7;
+    border-radius: 50px;
+    padding: 12px 40px;
+    margin-top: 10px;
+}
+
+.hero a:hover {
+    background-color: rgb(109, 212, 200);
     transition: 0.5s ease;
 }
